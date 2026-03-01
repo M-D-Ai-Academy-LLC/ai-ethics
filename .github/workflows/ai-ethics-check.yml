@@ -1,5 +1,9 @@
 name: AI Ethics Check
 on: [push, pull_request]
+
+permissions:
+  contents: read
+
 jobs:
   ethics-check:
     runs-on: ubuntu-latest

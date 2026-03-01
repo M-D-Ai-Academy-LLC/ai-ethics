@@ -8,6 +8,10 @@ on:
       - main
       - develop
 
+permissions:
+  contents: read
+  issues: write
+
 jobs:
   check-attribution:
     name: Check AI Attribution Policy
